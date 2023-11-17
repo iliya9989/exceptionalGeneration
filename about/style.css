@@ -1,0 +1,134 @@
+/*copied*/
+html,
+body {
+  height: 1930px;
+  width: 100%;
+  margin: 0;
+  font-family: sans-serif;
+}
+header {
+  display: flex;
+  width: 100%;
+  height: 120px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2%;
+  color: whitesmoke;
+  background-color: #1e1e1e;
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-size: 32px;
+}
+
+nav {
+  text-decoration: none;
+  width: 40%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 30%;
+  font-size: 28px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 105px;
+  width: 100%;
+  background-color: #1e1e1e;
+  color: whitesmoke;
+}
+
+footer div,
+a {
+  font-size: 22px;
+  margin: 10px;
+}
+
+a {
+  margin: 0;
+  transition: all 0.5s cubic-bezier(0.4, 0, 1, 1);
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0.25rem;
+}
+a::before {
+  content: " ";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: grey;
+  transition: width 0.25s ease-out;
+}
+a:hover {
+  color: grey;
+  transition: all 0.5s cubic-bezier(0.4, 0, 1, 1);
+  cursor: pointer;
+}
+a:hover::before {
+  width: 100%;
+}
+/*copied from stickers*/
+.banner {
+  width: 100%;
+  height: 500px;
+  color: whitesmoke;
+  background-color: #1e1e1e;
+}
+.banner h1 {
+  position: absolute;
+  top: 45%;
+  font-size: 64px;
+  z-index: 1;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+/*end of the copy*/
+/*copied end*/
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 1205px;
+  background-color: #1e1e1e;
+}
+main img {
+  width: 550px;
+  height: 700px;
+}
+.about-text {
+  height: 590px;
+  width: 650px;
+  color: whitesmoke;
+}
+.about-text h2 {
+  font-size: 64px;
+  font-weight: bold;
+}
+.about-text p {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner h1 {
+  right: 42%;
+}
