@@ -63,6 +63,7 @@ a {
   position: relative;
   display: inline-block;
   padding-bottom: 0.25rem;
+  text-decoration: none;
 }
 a::before {
   content: " ";
@@ -128,11 +129,15 @@ main h2 {
   font-size: 32px;
 }
 #name,
-#email {
+#email, button {
   width: 350px;
   height: 50px;
 }
 #message {
   width: 350px;
   height: 200px;
+}
+button {
+  color: whitesmoke;
+  background-color: #404040;
 }
