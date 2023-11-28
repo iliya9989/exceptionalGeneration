@@ -146,9 +146,9 @@ footer {
     display: none;
   }
   #image3, #image4 {
-    width: 180px;
-    height: 250px;
-    transform: rotate(15deg);
+    width: 35%;
+    height: 30%;
+    transform: rotate(10deg);
   }
   #featuredHeading {
     width: 100%;
@@ -161,8 +161,12 @@ footer {
   #stickersHeading , #tshirtsHeading {
     width: 45%;
   }
+  .instagram {
+    position: relative;
+  }
   .instagram a {
-    top: 190%;
-    right: 15%;
+    width: 100%;
+    right: 0%;
+    top: 40%
   }
 }
