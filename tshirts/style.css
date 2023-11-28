@@ -15,6 +15,7 @@ body {
   color: whitesmoke;
   font-size: 64px;
   font-weight: bold;
+  right: 45%;
 }
 
 main {
@@ -66,4 +67,16 @@ main {
 
 footer {
   height: 100px;
+}
+
+@media all and (max-width: 600px) {
+  #tShirts-nav {
+    display: none;
+  }
+  .banner h1 {
+    right: 30%;
+  }
+  .shop-item {
+    margin: 2% 25%;
+  }
 }
