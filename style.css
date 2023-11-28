@@ -118,3 +118,51 @@ main img:hover {
 footer {
   height: 100px;
 }
+
+@media all and (max-width: 600px) {
+  #excep-header {
+    display: none;
+  }
+  .banner {
+    flex-wrap: wrap;
+  }
+  .banner h1 {
+    display: block;
+    font-size: 48px;
+    width: 100%;
+    text-align: center;
+  }
+  .banner img {
+    width: 200px;
+    height: 200px;
+  }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #image1, #image2, #image5 {
+    display: none;
+  }
+  #image3, #image4 {
+    width: 180px;
+    height: 250px;
+    transform: rotate(15deg);
+  }
+  #featuredHeading {
+    width: 100%;
+    text-align: center;
+  }
+  #stickersHeading a, #tshirtsHeading a {
+    font-size: 24px;
+    margin: 0;
+  }
+  #stickersHeading , #tshirtsHeading {
+    width: 45%;
+  }
+  .instagram a {
+    top: 190%;
+    right: 15%;
+  }
+}
