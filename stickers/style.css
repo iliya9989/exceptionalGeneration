@@ -16,3 +16,25 @@
   height: 100%;
   opacity: 0.5;
 }
+
+@media all and (max-width: 600px) {
+  #stickers-nav {
+    display: none;
+  }
+  html,
+  body {
+    height: 800px;
+  }
+  .banner h1 {
+    right: 30%;
+  }
+  body {
+    height: 800px;
+  }
+  main {
+    height: 400px;
+  }
+  .shop-item {
+    height: 80%;
+  }
+}

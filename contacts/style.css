@@ -44,3 +44,28 @@ button {
   color: whitesmoke;
   background-color: #404040;
 }
+
+@media all and (max-width: 600px) {
+  .banner h1 {
+    right: 20%;
+  }
+  html, body {
+    height: 800px;
+  }
+  main {
+    height: 400px;
+  }
+  .send-a-message {
+    display: none;
+  }
+  .get-in-touch {
+    max-height: 100%;
+    text-align: center;
+  }
+  .get-in-touch h2 {
+    font-size: 32px;
+  }
+  .get-in-touch p {
+    font-size: 24px;
+  }
+}
