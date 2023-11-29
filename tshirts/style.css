@@ -69,7 +69,7 @@ footer {
   height: 100px;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 600px), print {
   #tShirts-nav {
     display: none;
   }
@@ -78,5 +78,18 @@ footer {
   }
   .shop-item {
     margin: 2% 25%;
+  }
+}
+@media print {
+  #main-nav {
+    display: none;
+  }
+  .banner {
+    height: 300px;
+    margin-bottom: 40%;
+  }
+  .shop-item {
+    height: 55%;
+    width: 90%;
   }
 }

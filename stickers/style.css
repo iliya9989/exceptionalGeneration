@@ -17,13 +17,13 @@
   opacity: 0.5;
 }
 
-@media all and (max-width: 600px) {
+@media screen and (max-width: 600px), print {
   #stickers-nav {
     display: none;
   }
   html,
   body {
-    height: 800px;
+    height: 900px;
   }
   .banner h1 {
     right: 30%;
@@ -32,9 +32,24 @@
     height: 800px;
   }
   main {
-    height: 400px;
+    height: 500px;
   }
   .shop-item {
     height: 80%;
+  }
+}
+@media print {
+  .banner {
+    height: 300px;
+  }
+  .banner img {
+    display: none;
+  }
+  .banner h1 {
+    top: 15%;
+    right: 35%;
+  }
+  #main-nav {
+    display: none;
   }
 }

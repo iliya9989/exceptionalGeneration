@@ -45,11 +45,12 @@ button {
   background-color: #404040;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 600px), print {
   .banner h1 {
     right: 20%;
   }
-  html, body {
+  html,
+  body {
     height: 800px;
   }
   main {
@@ -67,5 +68,17 @@ button {
   }
   .get-in-touch p {
     font-size: 24px;
+  }
+}
+@media print {
+  .banner {
+    height: 100px;
+  }
+  .banner img {
+    display: none;
+  }
+  .banner h1 {
+    top: 25%;
+    right: 27%;
   }
 }

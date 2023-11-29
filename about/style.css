@@ -35,12 +35,12 @@ main img {
   right: 42%;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 600px), print {
   .banner h1 {
     right: 25%;
   }
   .about-text {
-    height: 50%;
+    height: 80%;
     width: 60%;
   }
   .about-text h2 {
@@ -60,5 +60,20 @@ main img {
   main {
     height: 400px;
     flex-wrap: nowrap;
+  }
+  main * {
+    margin: 0 2%;
+  }
+}
+@media print {
+  .banner {
+    height: 100px;
+  }
+  .banner img {
+    display: none;
+  }
+  .banner h1 {
+    right: 33%;
+    top: 15%;
   }
 }

@@ -81,7 +81,7 @@ a {
   text-decoration: none;
 }
 
-@media all and (max-width: 600px) {
+@media screen and (max-width: 600px), print {
   html,
   body {
     width: 100%;
@@ -119,5 +119,10 @@ a {
   footer a {
     font-size: 20px;
     margin: 0 0 0 5%;
+  }
+}
+@media print {
+  footer {
+    display: none;
   }
 }

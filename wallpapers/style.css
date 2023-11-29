@@ -14,3 +14,22 @@ main {
 .banner h1 {
   right: 15%;
 }
+@media print {
+  .banner {
+    height: 300px;
+  }
+  .banner img {
+    display: none;
+  }
+  .banner h1 {
+    top: 15%;
+    left: 20%;
+  }
+  #main-nav {
+    display: none;
+  }
+  html,
+  body {
+    height: 600px;
+  }
+}

@@ -69,7 +69,7 @@ main {
   opacity: 0.5;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 600px), print {
   #excep-header {
     font-size: 28px;
   }
