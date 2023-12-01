@@ -12,7 +12,7 @@ main {
   flex-wrap: wrap;
 }
 .banner h1 {
-  right: 15%;
+  right: 20%;
 }
 @media print {
   .banner {
